@@ -10,9 +10,6 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "team_id")
-    private long teamId;
-
     @Column(name = "player_name")
     private String playerName;
 
@@ -25,14 +22,6 @@ public class Player {
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public long getTeamId() {
-        return teamId;
-    }
-
-    public void setTeamId(long teamId) {
-        this.teamId = teamId;
     }
 
     public String getPlayerName() {
