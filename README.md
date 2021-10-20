@@ -6,5 +6,8 @@ Currently i am developing CRUD application that would offer:
 - team - player association
 - shuffle team members
 
-I would like to dockerize and secure it at the very end
+Frontend part is being developed with angular.
+Backend is Spring Boot based.
+
+I would like to dockerize and secure it at the very end.
 Wish me good luck ;)
